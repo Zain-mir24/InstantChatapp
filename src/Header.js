@@ -2,11 +2,11 @@ import React from 'react'
 const headerStyle={
     backgroundColor :"#76ff03",
     borderRadius : "20px",
-    height:"50px",
+    height:"20px",
 }
 const WordStyle={
     padding:"6px",
-    fontSize:"80px",
+    fontSize:"30px",
 
 }
 function Header() {
