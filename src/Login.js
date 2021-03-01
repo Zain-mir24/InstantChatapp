@@ -4,12 +4,12 @@ function Login() {
     const [email,setemail]=React.useState("")
     const Register=(event)=>{
       event.preventDefault();
-      auth.createUserWithEmailAndPassword(email, password).then((auth) => {
-        // it successfully created a new user with email and password
-        if (auth) {
-          history.push("/");
-        }
-      });
+      // auth.createUserWithEmailAndPassword(email, password).then((auth) => {
+      //   // it successfully created a new user with email and password
+      //   if (auth) {
+      //     history.push("/");
+      //   }
+      // });
     }
     return (
       
