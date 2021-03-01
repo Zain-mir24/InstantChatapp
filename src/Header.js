@@ -6,7 +6,7 @@ const headerStyle={
 }
 const WordStyle={
     padding:"1%",
-    fontSize:"30px",
+    fontSize:"25px",
 
 }
 function Header() {
