@@ -5,14 +5,15 @@ const headerStyle={
     height:"50px",
 }
 const WordStyle={
-    padding:"5px",
-    fontSize:"20px"
+    padding:"6px",
+    fontSize:"80px",
+
 }
 function Header() {
     return (
         <div>
             <header style={headerStyle}>
-             <p style={WordStyle}>  Kik </p>
+             <p style={WordStyle}> Kik </p>
             </header>
         </div>
     )
