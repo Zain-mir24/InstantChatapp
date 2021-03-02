@@ -1,13 +1,18 @@
 import React from 'react'
 const headerStyle={
-    backgroundColor :"#76ff03",
+  
     borderRadius : "20px",
     height:"40px",
     marginBottom : "1px"
+    
 }
 const WordStyle={
     padding:"1px",
     fontSize:"35px",
+    backgroundColor:"#81c784",
+    borderRadius:"20px",
+    marginLeft:"30%",
+    marginRight:"30%"
 
 }
 function Header() {
