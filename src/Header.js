@@ -3,10 +3,11 @@ const headerStyle={
     backgroundColor :"#76ff03",
     borderRadius : "20px",
     height:"40px",
+    marginBottom : "1px"
 }
 const WordStyle={
-    padding:"1%",
-    fontSize:"25px",
+    padding:"1px",
+    fontSize:"35px",
 
 }
 function Header() {

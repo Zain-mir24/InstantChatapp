@@ -1,5 +1,7 @@
 import React from 'react'
-
+const inputstyling={
+    marginTop:"40px"
+}
 function Login() {
     const [email,setemail]=React.useState("")
     // const Register=(event)=>{
@@ -15,7 +17,7 @@ function Login() {
       
         <div>
             <form>
-            <input type="email" placeholder="EnterYourEmail" onChange= {e=> (setemail.target.value)}/>
+            <input style={inputstyling} type="email" placeholder="EnterYourEmail" onChange= {e=> (setemail.target.value)}/>
             
             <p>Creating your kik account</p>
             <button>Create your Kik Account</button>
