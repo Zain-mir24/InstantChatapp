@@ -1,9 +1,12 @@
 import React from 'react'
 const inputstyling={
-    marginTop:"40px"
+    marginTop:"20px"
 }
 const buttonstyle={
     borderRadius:"25px"
+}
+const heading={
+    backgroundColor:""
 }
 function Login() {
     const [email,setemail]=React.useState("")
@@ -17,12 +20,12 @@ function Login() {
     //   // });
     // }
     return (
-      
-        <div>
+         <div>
             <form>
+            <h1>Login Form</h1>
             <input style={inputstyling} type="email" placeholder="EnterYourEmail" onChange= {e=> (setemail.target.value)}/>
             
-            <p>Creating your kik account</p>
+            <p>Dont have a kik account?</p>
             <button style={buttonstyle}>Create your Kik Account</button>
             </form>
         </div>
