@@ -1,9 +1,15 @@
 import React from 'react'
+const stylingchatList={
+    height:"800px",
+    width:"100%",
+    backgroundColor:"#03a9f4",
 
+    
+}
 function MessageList() {
     return (
-        <div>
-            
+        <div style={stylingchatList}>
+        
         </div>
     )
 }

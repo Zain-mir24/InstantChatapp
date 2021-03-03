@@ -10,7 +10,7 @@ const buttonstyle={
 }
 
 const formstyling={
-  backgroundColor:"#81c784",
+  backgroundColor:"#03a9f4",
     marginLeft:"30%",
     marginRight:"30%",
     height:"400px"

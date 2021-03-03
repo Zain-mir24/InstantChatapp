@@ -9,7 +9,7 @@ const headerStyle={
 const WordStyle={
     padding:"1px",
     fontSize:"35px",
-    backgroundColor:"#81c784",
+    backgroundColor:"#03a9f4",
     borderRadius:"20px",
     marginLeft:"30%",
     marginRight:"30%"
