@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from 'react-router-dom'
 const inputstyling={
     marginTop:"20px",
     height:"50px",
@@ -38,7 +39,7 @@ function Login() {
             <input style={inputstyling}  type="email" placeholder="EnterYourEmail" onChange= {e=> (setemail.target.value)}/>
             </div>
             <p>Dont have a kik account?</p>
-          <button onclick="location.href ='./mainpage.js'" style={buttonstyle}>Create your Kik Account</button>  
+      <Link to="/mainpage">    <button  style={buttonstyle}>Create your Kik Account</button>  </Link>
             </form>
         </div>
     )

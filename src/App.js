@@ -1,24 +1,28 @@
-
-import './App.css';
-import Login from './Login'
-import Header from './Header'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import MessageList from './MessageList'
-import React from 'react'
-
+import "./App.css";
+import Login from "./Login";
+import Header from "./Header";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import MessageList from "./MessageList";
+import Mainpage from "./mainpage";
+import React from "react";
 
 function App() {
-  const [message,Setmessage] = React.useState("")
+  const [message, Setmessage] = React.useState("");
   return (
-    <Router>
     <div className="App">
-      <Header />
-    
-      <Login />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <Header />
+            <Login />
+          </Route>
+          <Route path="/mainpage">
+            <Mainpage />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
-    </Router>
   );
- 
 }
 // app.js
 
