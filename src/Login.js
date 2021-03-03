@@ -38,7 +38,7 @@ function Login() {
             <input style={inputstyling}  type="email" placeholder="EnterYourEmail" onChange= {e=> (setemail.target.value)}/>
             </div>
             <p>Dont have a kik account?</p>
-          <button onclick="window.location='./mainpage.js'" style={buttonstyle}>Create your Kik Account</button>  
+          <button onclick="location.href ='./mainpage.js'" style={buttonstyle}>Create your Kik Account</button>  
             </form>
         </div>
     )
