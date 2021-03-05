@@ -12,7 +12,8 @@ const stylingSidebar = {
   float: "left",
 };
 const messagedialogue={
-    
+   width:"20%",
+  
 }
 function MessageList() {
   return (
@@ -24,7 +25,7 @@ function MessageList() {
           <li>users</li>
         </ul>
       </div>
-      <div className="message">
+      <div className="message" style={messagedialogue}>
         <p>
           <span className="message__name">username</span>
         </p>
