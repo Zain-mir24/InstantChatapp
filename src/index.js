@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 const express= require('express')
 // const socketio = require('socket.io')
-const http = require('http-server')
+
 const app = express()
-const server =http.createServer(app)
+
 // const io=socketio(server)
 // const { Socket } = require('dgram')
 const port=process.env.PORT ||3000
@@ -19,7 +19,7 @@ const port=process.env.PORT ||3000
 
 // })
 
-server.listen(port,()=>{
+app.listen(port,()=>{
   console.log(`Server is up on port ${port}!`)
 })
 
