@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-const express= require('express')
+// const express= require('express')
 // const socketio = require('socket.io')
 
-const app = express()
+// const app = express()
 
 // const io=socketio(server)
 // const { Socket } = require('dgram')
-const port=process.env.PORT ||3000
+// const port=process.env.PORT ||3001
 
 // const publicDirectoryPath = path.join(__dirname,'../public')
 // app.use(express.static(publicDirectoryPath)) 
@@ -19,9 +19,9 @@ const port=process.env.PORT ||3000
 
 // })
 
-app.listen(port,()=>{
-  console.log(`Server is up on port ${port}!`)
-})
+// app.listen(port,()=>{
+//   console.log(`Server is up on port ${port}!`)
+// })
 
 ReactDOM.render(
   <React.StrictMode>
